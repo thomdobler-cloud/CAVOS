@@ -1,0 +1,327 @@
+/* Base Variables (Default Theme: Deep Navy) */
+:root {
+  --primary: #2563EB;
+  --primary-hover: #1d4ed8;
+  --bg-dark: #1e293b;
+  --bg-card: #0f172a;
+  --text-main: #ffffff;
+  --text-muted: #94a3b8;
+  --input-bg: #f1f5f9;
+  --radius: 12px;
+  --font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Theme 2: Midnight Black (OLED) */
+[data-theme='midnight'] {
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --bg-dark: #000000;
+  --bg-card: #111111;
+  --text-muted: #a3a3a3;
+}
+
+/* Theme 3: Nordic Forest */
+[data-theme='forest'] {
+  --primary: #10b981;
+  --primary-hover: #059669;
+  --bg-dark: #052e16;
+  /* Very dark green */
+  --bg-card: #022c22;
+  --text-muted: #86efac;
+}
+
+/* Theme 4: Bordeaux Wine */
+[data-theme='wine'] {
+  --primary: #fb7185;
+  --primary-hover: #f43f5e;
+  --bg-dark: #4a044e;
+  /* Dark plum/wine */
+  --bg-card: #2e022d;
+  --text-muted: #fda4af;
+}
+
+/* Theme 5: Slate Industrial */
+[data-theme='slate'] {
+  --primary: #cbd5e1;
+  /* Light grey accent */
+  --primary-hover: #94a3b8;
+  --bg-dark: #111827;
+  --bg-card: #030712;
+  --text-muted: #6b7280;
+}
+
+/* Theme 6: Royal Purple */
+[data-theme='royal'] {
+  --primary: #a78bfa;
+  --primary-hover: #8b5cf6;
+  --bg-dark: #2e1065;
+  --bg-card: #1e0bb1;
+  /* adjusted for contrast */
+  --text-muted: #ddd6fe;
+}
+
+/* Theme 7: Ocean Depth */
+[data-theme='ocean'] {
+  --primary: #22d3ee;
+  --primary-hover: #06b6d4;
+  --bg-dark: #083344;
+  --bg-card: #082f49;
+  --text-muted: #bae6fd;
+}
+
+/* Theme 8: Sunset Warmth */
+[data-theme='sunset'] {
+  --primary: #fb923c;
+  --primary-hover: #f97316;
+  --bg-dark: #431407;
+  /* Dark reddish brown */
+  --bg-card: #2a0a04;
+  --text-muted: #fdba74;
+}
+
+/* Theme 9: Pure Light */
+[data-theme='light'] {
+  --primary: #2563EB;
+  --primary-hover: #1d4ed8;
+  --bg-dark: #f8fafc;
+  /* Very light cool grey */
+  --bg-card: #ffffff;
+  --text-main: #0f172a;
+  /* Dark text */
+  --text-muted: #64748b;
+  --bg-glass: rgba(0, 0, 0, 0.05);
+  /* Darker glass effect for light bg */
+}
+
+/* Theme 10: Creamy Latte */
+[data-theme='cream'] {
+  --primary: #a97142;
+  /* Coffee color */
+  --primary-hover: #925c35;
+  --bg-dark: #fdf6e3;
+  /* Solarized light styled background */
+  --bg-card: #eee8d5;
+  --text-main: #433422;
+  /* Dark brown text */
+  --text-muted: #8b7e6e;
+  --bg-glass: rgba(67, 52, 34, 0.05);
+}
+
+/* --- NEW ELEGANT THEMES --- */
+
+/* Theme 11: Noir Luxury (Dark) */
+[data-theme='noir'] {
+  --primary: #d4af37;
+  /* Gold */
+  --primary-hover: #b4941f;
+  --bg-dark: #000000;
+  --bg-card: #0a0a0a;
+  --text-main: #f5f5f5;
+  --text-muted: #a3a3a3;
+  --border-color: #333;
+}
+
+/* Theme 12: Arctic Ice (Light) */
+[data-theme='arctic'] {
+  --primary: #0ea5e9;
+  /* Sky Blue */
+  --primary-hover: #0284c7;
+  --bg-dark: #f0f9ff;
+  /* Alice Blue */
+  --bg-card: #e0f2fe;
+  --text-main: #0c4a6e;
+  /* Dark Blue Text */
+  --text-muted: #334155;
+  --bg-glass: rgba(14, 165, 233, 0.05);
+}
+
+/* Theme 13: Sakura (Light) */
+[data-theme='sakura'] {
+  --primary: #ec4899;
+  /* Pink */
+  --primary-hover: #db2777;
+  --bg-dark: #fff1f2;
+  /* Rose White */
+  --bg-card: #ffe4e6;
+  --text-main: #881337;
+  /* Dark Red/Pink Text */
+  --text-muted: #9f1239;
+  --bg-glass: rgba(236, 72, 153, 0.05);
+}
+
+/* Theme 14: Emerald City (Dark) */
+[data-theme='emerald'] {
+  --primary: #34d399;
+  --primary-hover: #10b981;
+  --bg-dark: #022c22;
+  --bg-card: #064e3b;
+  --text-main: #ecfdf5;
+  --text-muted: #6ee7b7;
+}
+
+/* Theme 15: Graphite (Dark) */
+[data-theme='graphite'] {
+  --primary: #94a3b8;
+  --primary-hover: #64748b;
+  --bg-dark: #18181b;
+  /* Zinc 900 */
+  --bg-card: #27272a;
+  --text-main: #fafafa;
+  --text-muted: #a1a1aa;
+}
+
+/* Theme 16: Lavender Dream (Light) */
+[data-theme='lavender'] {
+  --primary: #8b5cf6;
+  /* Violet */
+  --primary-hover: #7c3aed;
+  --bg-dark: #f5f3ff;
+  --bg-card: #ede9fe;
+  --text-main: #4c1d95;
+  /* Dark Violet Text */
+  --text-muted: #5b21b6;
+  --bg-glass: rgba(139, 92, 246, 0.05);
+}
+
+/* Theme 17: Sapphire (Dark) */
+[data-theme='sapphire'] {
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --bg-dark: #172554;
+  /* Blue 950 */
+  --bg-card: #1e3a8a;
+  --text-main: #eff6ff;
+  --text-muted: #93c5fd;
+}
+
+/* Theme 18: Desert Sand (Light) */
+[data-theme='sand'] {
+  --primary: #d97706;
+  /* Amber */
+  --primary-hover: #b45309;
+  --bg-dark: #fffbeb;
+  --bg-card: #fef3c7;
+  --text-main: #451a03;
+  /* Dark Brown Text */
+  --text-muted: #78350f;
+  --bg-glass: rgba(217, 119, 6, 0.05);
+}
+
+/* Theme 19: Neon City (Dark) */
+[data-theme='neon'] {
+  --primary: #06b6d4;
+  /* Cyan */
+  --primary-hover: #0891b2;
+  --bg-dark: #09090b;
+  --bg-card: #18181b;
+  --text-main: #ffffff;
+  --text-muted: #22d3ee;
+  --border-color: #06b6d4;
+}
+
+/* Theme 20: Mint Fresh (Light) */
+[data-theme='mint'] {
+  --primary: #14b8a6;
+  /* Teal */
+  --primary-hover: #0d9488;
+  --bg-dark: #f0fdfa;
+  --bg-card: #ccfbf1;
+  --text-main: #134e4a;
+  /* Dark Teal Text */
+  --text-muted: #115e59;
+  --bg-glass: rgba(20, 184, 166, 0.05);
+}
+
+/* --- OVERRIDES FOR LIGHT THEMES --- */
+[data-theme='light'],
+[data-theme='cream'],
+[data-theme='arctic'],
+[data-theme='sakura'],
+[data-theme='lavender'],
+[data-theme='sand'],
+[data-theme='mint'] {
+  --text-main: #000000 !important;
+  /* Force Black/Darkest */
+  color: #000000 !important;
+}
+
+/* Explicit Header Colors for Light Themes */
+[data-theme='light'] h1,
+[data-theme='light'] h2,
+[data-theme='light'] h3,
+[data-theme='cream'] h1,
+[data-theme='cream'] h2,
+[data-theme='cream'] h3,
+[data-theme='arctic'] h1,
+[data-theme='arctic'] h2,
+[data-theme='arctic'] h3,
+[data-theme='sakura'] h1,
+[data-theme='sakura'] h2,
+[data-theme='sakura'] h3,
+[data-theme='lavender'] h1,
+[data-theme='lavender'] h2,
+[data-theme='lavender'] h3,
+[data-theme='sand'] h1,
+[data-theme='sand'] h2,
+[data-theme='sand'] h3,
+[data-theme='mint'] h1,
+[data-theme='mint'] h2,
+[data-theme='mint'] h3 {
+  color: #0d0d0d !important;
+  text-shadow: none !important;
+}
+
+/* Default Dark Theme Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+
+/* Global Styles continue... */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+  /* Smooth theme transition */
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* Utilities */
+.glass-panel {
+  background: transparent;
+
+  @media (min-width: 768px) {
+    background: #1e293b;
+    /* Fallback */
+    background: var(--bg-dark);
+    /* Use var for theme consistency if needed, or stick to specific card color */
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+}
